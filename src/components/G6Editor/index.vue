@@ -11,7 +11,6 @@
         <!--detailpannel-->
         <detail-panel />
         <!--miniMap-->
-        <minimap />
         <!--page-->
         <page :height="height" :width="width"  :data="data" />
       </div>
@@ -77,6 +76,7 @@ export default {
 .editor {
   position: relative;
   width: 100%;
+  height: 389.6px;
   user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;

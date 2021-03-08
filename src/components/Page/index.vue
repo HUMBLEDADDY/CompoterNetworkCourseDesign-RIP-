@@ -44,7 +44,7 @@ export default {
 
       this.graph = new G6.Graph({
         container: "graph-container",
-        height: height,
+        height: 347,
         width: width,
         modes: {
           // 支持的 behavior
@@ -82,5 +82,10 @@ export default {
 .page{
   margin-left:200px;
   margin-right: 200px;
+  height: 339.6px;
+  overflow: hidden;
+}
+.graph-container{
+  height: 339.6px;
 }
 </style>

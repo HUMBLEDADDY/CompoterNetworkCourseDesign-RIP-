@@ -189,7 +189,7 @@ const customNode = {
           return circle._attrs.isInPoint || circle._attrs.isOutPoint;
         });
         const selectStyles = () => {
-          if(shape._attrs.width == 170);
+          if(shape._attrs.width == 130);
           else{
             shape.attr("fill", "#f3f9ff");
           }
@@ -203,7 +203,7 @@ const customNode = {
           })
         };
         const unSelectStyles = () => {
-          if(shape._attrs.width == 170);
+          if(shape._attrs.width == 130);
           else{
             shape.attr("fill", "#fff");
           }
