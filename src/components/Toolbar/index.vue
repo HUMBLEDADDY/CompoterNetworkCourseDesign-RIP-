@@ -275,7 +275,7 @@ export default {
     },
 
     consoleData() {
-      console.log(this.graph.save());
+      console.log(JSON.stringify(this.graph.save()));
     }
   }
 };
